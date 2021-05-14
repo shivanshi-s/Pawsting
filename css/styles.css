@@ -2,41 +2,45 @@ body {
     font-family: 'Montserrat', serif;
    }
 
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+}
+
+h2 {
+    
+    font-size: 4rem;
+    line-height: 10;
+}
+
+/* h3 {
+    
+} */
+
+p {
+    color: #8f8f8f;
+}
+
 #title {
     color: #fff;
     background-color: #ff4c68;
    
 }
 
+.container-fluid {
+    padding: 3% 15% -10%;
+
+}
 
 
-h1 {
+/* -------------------Heading code-------------------- */
+.big-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
     padding-left: 10%;
 }
 
-h3 {
-    font-family: 'Montserrat';
-}
-
-p {
-    color: #8f8f8f;
-}
-
-h2 {
-    font-family: 'Montserrat';
-    font-size: 4rem;
-    line-height: 10;
-}
-
-.container-fluid {
-    padding: 3% 15% 6%;
-
-}
-
-/* Navigation BAr */
+/* -------------------Navigation Bar---------------------- */
 
 .navbar.navbar-expand-lg.navbar-dark{
     padding: 0 0 4.5rem;
@@ -57,14 +61,14 @@ h2 {
     font-family: 'Montserrat-light';
 }
 
-/* Download Buttons  */
+/*----------- Download Buttons--------------------  */
 .download-button {
     margin : 5% 3% 5% 0;
     padding: 10%;
     
 }
 
-/* Title Image */
+/*---------------- Title Image--------------- */
 .title-image {
     transform: rotate(24deg);
     border-radius: 25px;
@@ -73,7 +77,7 @@ h2 {
     
 }
 
-/* Features */
+/* ----------------Features------------------- */
 
 #features {
     padding: 5% 15%;
@@ -97,7 +101,7 @@ h2 {
 }
 
 
-/* testimonial section */
+/*----------------- testimonial section ---------------------*/
 
 #testimonials {
    
@@ -117,7 +121,7 @@ h2 {
 }
 
 
-/* press */
+/*------------- press----------------- */
 #press {
     background-color: #ef8172;
     text-align: center;
@@ -130,7 +134,7 @@ h2 {
     margin: 20px 20px 50px;
 }
 
-/* Pricing Section */
+/*------------- Pricing Section--------------- */
 
 #pricing {
     padding: 100px;
@@ -141,7 +145,7 @@ h2 {
     padding: 3% 2%;
 }
 
-/* Call to Action */
+/*--------------- Call to Action-------------- */
 
 #cta {
     background-color: #ff4c68;
@@ -157,7 +161,7 @@ h2 {
 }
 
 
-/* footer heading */
+/*-------- footer heading----------- */
 
 #footer {
     padding: 7% 15%;
@@ -168,7 +172,7 @@ h2 {
     margin : 20px 10px;
 }
 
-
+/*------------------media queries---------*/
 
 @media (max-width : 1020px) {
 

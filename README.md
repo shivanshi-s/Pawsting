@@ -10,7 +10,9 @@ This is a landing page for a fictional dating app for cat owners to help their f
 The main framework used in building the Pawsting website is Bootstrap and its components like Carousel, Card, Buttons, Navbar etc. It also used HTML5, CSS3 and Google Fonts and Font Awesome.
 
 ## Screenshots 
-![](Pawsting/images/front.png)
+![](images/front.png) <br>
+![](images/testimonial.png) <br>
+![](images/download.png)
 
 ## Nitty Gritty 
 Based on one of the projects from Angela Yu's Udemy Web Development course, this single page web app was built with HTML and Bootstrap 4.0.
